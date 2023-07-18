@@ -123,6 +123,22 @@ h2 {
     display: flex;
 }
 
+.grid-size-input {
+    align-self: center;
+    font-family: 'VT323', monospace;
+    font-size: 32px;
+    color: #464646;
+    height: 50px;
+    width: 50px;
+    border: 2px dashed #ebebeb;
+    border-radius: 10px;
+}
+
+.size-label {
+    font-size: 32px;
+    align-self: center;
+}
+
 .option.color-schemes {
     display: flex;
     flex-direction: column;
