@@ -16,6 +16,18 @@ body {
     justify-content: center;
 }
 
+.easel-page {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color: white;
+    background-color: #ecd4cc;
+    width: 400px;
+    height: 850px;
+    border: 3px dashed white;
+    border-radius: 15px;
+}
+
 .main {
     display: flex;
     flex-direction: column;
