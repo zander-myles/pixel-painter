@@ -30,6 +30,8 @@ body {
     border: 3px dashed white;
     border-radius: 15px;
     translate: -1000px;
+    transition: .3s;
+    transition-timing-function: ease-in-out;
 }
 
 .easel-header {
