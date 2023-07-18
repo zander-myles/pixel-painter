@@ -107,6 +107,7 @@ h1 {
     justify-content: center;
     gap: 30px;
     height: 1000px;
+    width: 90%;
 }
 
 h2 {
@@ -209,6 +210,7 @@ h2 {
 .color-schemes-container {
     display: flex;
     gap: 25px;
+    flex-wrap: wrap;
 }
 
 .color-scheme-card {
