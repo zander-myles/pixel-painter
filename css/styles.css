@@ -36,7 +36,6 @@ body {
 h1 {
     font-size: 72px;
     padding-top: 5px;
-    padding-bottom: 10px;
 }
 
 .grid {
@@ -45,6 +44,18 @@ h1 {
     width: 41vw;
     height: 41vw;
     border: 3px solid #ebebeb;
+    margin: 20px;
+}
+
+.new-grid {
+    font-family: 'VT323', monospace;
+    font-size: 32px;
+    color: white;
+    background-color: #ff9a9a;
+    border: 3px dashed rgb(255, 131, 131);
+    border-radius: 15px;
+    width: 280px;
+    padding: 7px;
 }
 
 .options-page {
