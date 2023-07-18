@@ -33,6 +33,12 @@ body {
     align-items: center;
 }
 
+h1 {
+    font-size: 72px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
 .grid {
     display: flex;
     flex-wrap: wrap;
