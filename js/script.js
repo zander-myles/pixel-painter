@@ -1,4 +1,7 @@
 const grid = document.querySelector(".grid");
+const newGridButton = document.querySelector(".new-grid");
+const gridSizeInput = document.querySelector(".grid-size-input");
+const sizeLabel = document.querySelector(".size-label");
 
 function createGrid(numOnSide) {
     const pixels = document.querySelectorAll(".pixel");
@@ -17,4 +20,14 @@ function createGrid(numOnSide) {
     }
 }
 
-createGrid(24);
+gridSizeInput.addEventListener("blur", () => {
+    let numOnSide = gridSizeInput.value;
+    sizeLabel.textContent = `x${numOnSide}`;
+})
+
+newGridButton.addEventListener("click", () => {
+    let numOnSide = gridSizeInput.value;
+    createGrid(numOnSide);
+})
+
+createGrid(16);
