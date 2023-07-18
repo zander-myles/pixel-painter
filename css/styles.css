@@ -116,6 +116,11 @@ h2 {
     display: flex;
     border: 2px dashed #ebebeb;
     padding: 20px 10px 20px 10px;
+    justify-content: space-between;
+}
+
+.grid-size-text {
+    display: flex;
 }
 
 .option.color-schemes {
