@@ -134,7 +134,7 @@ h2 {
     border-radius: 10px;
 }
 
-.rainbow-button, .grayscale-button {
+.rainbow-button.off, .grayscale-button.off {
     font-family: 'VT323', monospace;
     font-size: 32px;
     color: #464646;
