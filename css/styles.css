@@ -74,6 +74,7 @@ h1 {
 .options-page {
     display: flex;
     flex-direction: column;
+    gap: 30px;
 }
 
 h2 {
@@ -84,6 +85,8 @@ h2 {
 
 .option {
     display: flex;
+    border: 2px dashed #ebebeb;
+    padding: 20px 10px 20px 10px;
 }
 
 .option.color-schemes {
