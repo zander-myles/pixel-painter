@@ -47,6 +47,35 @@ h1 {
     margin: 20px;
 }
 
+.main-buttons {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.easel {
+    font-family: "VT323", monospace;
+    font-size: 32px; 
+    color: #ebebeb;
+    background-color: #e7b5a6;
+    width: 280px;
+    padding: 6px;
+    border: 3px dashed #dba696;
+    border-radius: 15px;
+}
+
+.easel:hover {
+    color: white;
+    background-color: #e9ac99;
+    border-color: #df9680;
+}
+
+.easel:active {
+    background-color: #df9680;
+    border-color: white;
+    box-shadow: 0px 0px 0px 1px #df9680;
+}
+
 .new-grid {
     font-family: 'VT323', monospace;
     font-size: 32px;
