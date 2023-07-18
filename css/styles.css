@@ -50,12 +50,25 @@ h1 {
 .new-grid {
     font-family: 'VT323', monospace;
     font-size: 32px;
-    color: white;
+    color: #ebebeb;
     background-color: #ff9a9a;
-    border: 3px dashed rgb(255, 131, 131);
+    border: 3px dashed #ff8383;
     border-radius: 15px;
     width: 280px;
-    padding: 7px;
+    padding: 6px;
+    transition: .2s;
+}
+
+.new-grid:hover {
+    color: white;
+    background-color: #ff8888;
+    border-color: #ff6767;
+}
+
+.new-grid:active {
+    background-color: #ff5252;
+    border-color: white;
+    box-shadow: 0px 0px 0px 1px #ff5252;
 }
 
 .options-page {
