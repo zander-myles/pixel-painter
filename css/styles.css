@@ -144,6 +144,52 @@ h2 {
     align-self: center;
     border: 2px dashed #9b9b9b;
     border-radius: 10px;
+    transition: .2s;
+}
+
+.rainbow-button.off:hover, .grayscale-button.off:hover {
+    color: white;
+    text-shadow: 0px 0px 3px white;
+    background-color: #cfffcf;
+    border-color: #9fff9f;
+}
+
+.rainbow-button.off:active, .grayscale-button.off:active {
+    background-color: #aeffae;
+    border-color: white;
+    width: 98px;
+    height: 48px;
+    box-shadow: 0px 0px 0px 1px #aeffae;
+}
+
+.rainbow-button.on, .grayscale-button.on {
+    font-family: 'VT323', monospace;
+    font-size: 32px;
+    color: white;
+    text-shadow: 0px 0px 3px white;
+    background: #9fff9f;
+    letter-spacing: 3px;
+    width: 98px;
+    height: 48px;
+    box-shadow: 0px 0px 0px 1px #9fff9f;
+    align-self: center;
+    border: 2px dashed white;
+    border-radius: 10px;
+    transition: .2s;
+}
+
+.rainbow-button.on:hover, .grayscale-button.on:hover {
+    color: #8a8a8a;
+    background-color: #d6d6d6;
+    text-shadow: none;
+    box-shadow: none;
+    border-color: #a1a1a1;
+}
+
+.rainbow-button.on:active, .grayscale-button.on:active {
+    background-color: #b9b9b9;
+    color: #464646;
+    border-color: #464646;
 }
 
 .size-label {
