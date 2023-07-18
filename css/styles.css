@@ -130,6 +130,10 @@ h2 {
     background-color: #ff9a9a;
 }
 
+.preview.reactive {
+    background-color: #b4d7ff;
+}
+
 .color-scheme-name {
     font-size: 32px;
 }
