@@ -17,6 +17,9 @@ body {
 }
 
 .easel-page {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     position: absolute;
     top: 50px;
     left: 50px;
@@ -26,6 +29,19 @@ body {
     height: 850px;
     border: 3px dashed white;
     border-radius: 15px;
+    translate: -1000px;
+}
+
+.easel-header {
+    font-size: 72px;
+    padding: 0;
+}
+
+.color-preview {
+    width: 80px;
+    height: 80px;
+    border: 4px dashed white;
+    border-radius: 50%;
 }
 
 .main {
