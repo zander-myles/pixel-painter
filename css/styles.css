@@ -75,6 +75,10 @@ h1 {
     margin: 20px;
 }
 
+.pixel {
+    border: 1px dashed #ebebeb;
+}
+
 .main-buttons {
     display: flex;
     align-items: center;
