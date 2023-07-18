@@ -1,6 +1,10 @@
 const grid = document.querySelector(".grid");
 
 function createGrid(numOnSide) {
+    const pixels = document.querySelectorAll(".pixel");
+    pixels.forEach((pixel) => {
+        pixel.remove();
+    });
     let gridWidth = grid.scrollWidth;
     let dimension = gridWidth / numOnSide - 2;
     let total = numOnSide * numOnSide;
@@ -13,4 +17,4 @@ function createGrid(numOnSide) {
     }
 }
 
-createGrid(16);
+createGrid(24);
