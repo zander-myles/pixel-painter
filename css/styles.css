@@ -80,7 +80,7 @@ h1 {
 h2 {
     align-self: center;
     font-size: 60px;
-    padding: 10px;
+    padding: 40px 0 10px 0;
 }
 
 .option {
@@ -92,6 +92,7 @@ h2 {
 .option.color-schemes {
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 .color-schemes-container {
@@ -144,4 +145,10 @@ h2 {
 p.option-label {
     font-size: 48px;
     padding: 5px;
+}
+
+.credit {
+    font-size: 48px;
+    align-self: center;
+    padding: 30px;
 }
